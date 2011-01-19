@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* HildingTheTurtleAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 641}}";
+			sepNavSelRange = "{226, 0}";
+			sepNavVisRange = "{0, 538}";
+		};
+	};
+	1D3623250D0F684500981E51 /* HildingTheTurtleAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1547}}";
+			sepNavSelRange = "{2890, 0}";
+			sepNavVisRange = "{2403, 1538}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* HildingTheTurtle */ = {
+		activeExec = 0;
+		executables = (
+			C509304712E424730004509C /* HildingTheTurtle */,
+		);
+	};
+	28216C950DB411BC00E5133A /* FirstViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {952, 397}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 249}";
+		};
+	};
+	28216C960DB411BC00E5133A /* FirstViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1270, 845}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1120}";
+		};
+	};
+	28A0AB4B0D9B1048005BE974 /* HildingTheTurtle_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 808}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 201}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C509304712E424730004509C /* HildingTheTurtle */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* HildingTheTurtle */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* HildingTheTurtle */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = C509305B12E4247D0004509C /* Code sense */;
+		executables = (
+			C509304712E424730004509C /* HildingTheTurtle */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1174,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317114036;
+			PBXWorkspaceStateSaveDate = 317114036;
+		};
+		perUserProjectItems = {
+			C52526E512E4EA7800EC12E2 = C52526E512E4EA7800EC12E2 /* PBXTextBookmark */;
+			C52526E712E4EA7800EC12E2 = C52526E712E4EA7800EC12E2 /* PBXBookmark */;
+			C525276512E4ED1100EC12E2 = C525276512E4ED1100EC12E2 /* PBXTextBookmark */;
+			C525276612E4ED1100EC12E2 = C525276612E4ED1100EC12E2 /* PBXTextBookmark */;
+			C525276712E4ED1100EC12E2 = C525276712E4ED1100EC12E2 /* PBXTextBookmark */;
+			C525277C12E4EF1900EC12E2 = C525277C12E4EF1900EC12E2 /* PBXTextBookmark */;
+			C584445812E4459800C0B7AE = C584445812E4459800C0B7AE /* PBXTextBookmark */;
+			C584445912E4459800C0B7AE = C584445912E4459800C0B7AE /* PBXBookmark */;
+			C584450712E44E5F00C0B7AE = C584450712E44E5F00C0B7AE /* PBXTextBookmark */;
+			C584457312E46FEA00C0B7AE = C584457312E46FEA00C0B7AE /* PBXTextBookmark */;
+			C584457512E46FEA00C0B7AE = C584457512E46FEA00C0B7AE /* PBXTextBookmark */;
+			C584457812E46FEA00C0B7AE = C584457812E46FEA00C0B7AE /* PBXTextBookmark */;
+			C5AA2AE612E577DD006FEA84 = C5AA2AE612E577DD006FEA84 /* PlistBookmark */;
+			C5AA2B9012E57FA4006FEA84 = C5AA2B9012E57FA4006FEA84 /* PBXTextBookmark */;
+			C5AA2B9212E57FA4006FEA84 = C5AA2B9212E57FA4006FEA84 /* PBXTextBookmark */;
+			C5AA2BA012E5811A006FEA84 = C5AA2BA012E5811A006FEA84 /* PBXTextBookmark */;
+			C5AA2BD212E58CA9006FEA84 = C5AA2BD212E58CA9006FEA84 /* PBXTextBookmark */;
+			C5AA2C5412E59484006FEA84 = C5AA2C5412E59484006FEA84 /* PBXTextBookmark */;
+			C5AA2C5512E59484006FEA84 = C5AA2C5512E59484006FEA84 /* PBXTextBookmark */;
+			C5AA2C7A12E59613006FEA84 = C5AA2C7A12E59613006FEA84 /* PBXTextBookmark */;
+			C5D2C05612E5AF6E009910EF = C5D2C05612E5AF6E009910EF /* PBXTextBookmark */;
+			C5D2C05712E5AF6E009910EF = C5D2C05712E5AF6E009910EF /* PBXTextBookmark */;
+			C5D2C05812E5AF6E009910EF = C5D2C05812E5AF6E009910EF /* PBXTextBookmark */;
+			C5D2C05912E5AF6E009910EF = C5D2C05912E5AF6E009910EF /* PBXTextBookmark */;
+			C5D2C05B12E5AFB1009910EF = C5D2C05B12E5AFB1009910EF /* PBXTextBookmark */;
+			C5FB94A212E5D12F008625BF = C5FB94A212E5D12F008625BF /* PBXTextBookmark */;
+			C5FB94A312E5D12F008625BF = C5FB94A312E5D12F008625BF /* PBXTextBookmark */;
+		};
+		sourceControlManager = C509305A12E4247D0004509C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C509304712E424730004509C /* HildingTheTurtle */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HildingTheTurtle;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C509305A12E4247D0004509C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C509305B12E4247D0004509C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C52526E512E4EA7800EC12E2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584455412E4622500C0B7AE /* MediaViewController.h */;
+		name = "MediaViewController.h: 16";
+		rLen = 0;
+		rLoc = 330;
+		rType = 0;
+		vrLen = 337;
+		vrLoc = 0;
+	};
+	C52526E712E4EA7800EC12E2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C52526BC12E4E9A600EC12E2 /* IMG_4819.png */;
+	};
+	C525273412E4EB8F00EC12E2 /* Facebook.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {952, 1365}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1121}";
+		};
+	};
+	C525273512E4EB8F00EC12E2 /* Facebook.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {952, 7644}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1089}";
+		};
+	};
+	C525276512E4ED1100EC12E2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C950DB411BC00E5133A /* FirstViewController.h */;
+		name = "FirstViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	C525276612E4ED1100EC12E2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C525273512E4EB8F00EC12E2 /* Facebook.m */;
+		name = "Facebook.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 0;
+	};
+	C525276712E4ED1100EC12E2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C525273412E4EB8F00EC12E2 /* Facebook.h */;
+		name = "Facebook.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 0;
+	};
+	C525277C12E4EF1900EC12E2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584455512E4622500C0B7AE /* MediaViewController.m */;
+		name = "MediaViewController.m: 205";
+		rLen = 0;
+		rLoc = 5048;
+		rType = 0;
+		vrLen = 1217;
+		vrLoc = 4628;
+	};
+	C584445812E4459800C0B7AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A0AB4B0D9B1048005BE974 /* HildingTheTurtle_Prefix.pch */;
+		name = "HildingTheTurtle_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 0;
+	};
+	C584445912E4459800C0B7AE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C509305F12E425420004509C /* hilding.jpg */;
+	};
+	C584448112E446D000C0B7AE /* VideoView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 641}}";
+			sepNavSelRange = "{370, 0}";
+			sepNavVisRange = "{0, 444}";
+		};
+	};
+	C584448212E446D000C0B7AE /* VideoView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 1209}}";
+			sepNavSelRange = "{792, 0}";
+			sepNavVisRange = "{202, 2144}";
+			sepNavWindowFrame = "{{15, 64}, {1214, 964}}";
+		};
+	};
+	C58444F712E44C8700C0B7AE /* TabBarController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 641}}";
+			sepNavSelRange = "{236, 0}";
+			sepNavVisRange = "{0, 322}";
+		};
+	};
+	C58444F812E44C8700C0B7AE /* TabBarController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1619, 754}}";
+			sepNavSelRange = "{920, 0}";
+			sepNavVisRange = "{770, 595}";
+		};
+	};
+	C584450712E44E5F00C0B7AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1120;
+		vrLoc = 0;
+	};
+	C584452112E4600D00C0B7AE /* VideoView2.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 641}}";
+			sepNavSelRange = "{372, 0}";
+			sepNavVisRange = "{0, 446}";
+		};
+	};
+	C584452212E4600D00C0B7AE /* VideoView2.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 1287}}";
+			sepNavSelRange = "{1850, 0}";
+			sepNavVisRange = "{1667, 1322}";
+		};
+	};
+	C584455412E4622500C0B7AE /* MediaViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {952, 397}}";
+			sepNavSelRange = "{330, 0}";
+			sepNavVisRange = "{0, 337}";
+		};
+	};
+	C584455512E4622500C0B7AE /* MediaViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1720, 3029}}";
+			sepNavSelRange = "{5048, 0}";
+			sepNavVisRange = "{4628, 1217}";
+		};
+	};
+	C584457312E46FEA00C0B7AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584457412E46FEA00C0B7AE /* SlideShowViewController.h */;
+		name = "SlideShowViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 258;
+		vrLoc = 0;
+	};
+	C584457412E46FEA00C0B7AE /* SlideShowViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SlideShowViewController.h;
+		path = /Users/johankarlsteen/Downloads/SlideShow/Classes/SlideShowViewController.h;
+		sourceTree = "<absolute>";
+	};
+	C584457512E46FEA00C0B7AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584457612E46FEA00C0B7AE /* SlideShowViewController.m */;
+		name = "SlideShowViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 0;
+	};
+	C584457612E46FEA00C0B7AE /* SlideShowViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SlideShowViewController.m;
+		path = /Users/johankarlsteen/Downloads/SlideShow/Classes/SlideShowViewController.m;
+		sourceTree = "<absolute>";
+	};
+	C584457812E46FEA00C0B7AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584457912E46FEA00C0B7AE /* SlideShowAppDelegate.m */;
+		name = "SlideShowAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 398;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 0;
+	};
+	C584457912E46FEA00C0B7AE /* SlideShowAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SlideShowAppDelegate.m;
+		path = /Users/johankarlsteen/Downloads/SlideShow/Classes/SlideShowAppDelegate.m;
+		sourceTree = "<absolute>";
+	};
+	C5AA2AE612E577DD006FEA84 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* HildingTheTurtle-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIStatusBarHidden,
+		);
+		name = "/Users/johankarlsteen/HildingTheTurtle/HildingTheTurtle-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	C5AA2B9012E57FA4006FEA84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C58444F712E44C8700C0B7AE /* TabBarController.h */;
+		name = "TabBarController.h: 13";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 322;
+		vrLoc = 0;
+	};
+	C5AA2B9212E57FA4006FEA84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* HildingTheTurtleAppDelegate.h */;
+		name = "HildingTheTurtleAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 0;
+	};
+	C5AA2BA012E5811A006FEA84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C58444F812E44C8700C0B7AE /* TabBarController.m */;
+		name = "TabBarController.m: 10";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 0;
+	};
+	C5AA2BD212E58CA9006FEA84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* HildingTheTurtleAppDelegate.m */;
+		name = "HildingTheTurtleAppDelegate.m: 80";
+		rLen = 0;
+		rLoc = 2890;
+		rType = 0;
+		vrLen = 1538;
+		vrLoc = 2403;
+	};
+	C5AA2C5412E59484006FEA84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584452112E4600D00C0B7AE /* VideoView2.h */;
+		name = "VideoView2.h: 19";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 446;
+		vrLoc = 0;
+	};
+	C5AA2C5512E59484006FEA84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584448112E446D000C0B7AE /* VideoView.h */;
+		name = "VideoView.h: 19";
+		rLen = 0;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	C5AA2C6212E5959F006FEA84 /* 640.html */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text.html;
+		name = 640.html;
+		path = /Users/johankarlsteen/HildingTheTurtle/640.html;
+		sourceTree = "<absolute>";
+	};
+	C5AA2C7A12E59613006FEA84 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584452212E4600D00C0B7AE /* VideoView2.m */;
+		name = "VideoView2.m: 52";
+		rLen = 0;
+		rLoc = 1850;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 1667;
+	};
+	C5D2C05212E5AEF5009910EF /* 320.html */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text.html;
+		name = 320.html;
+		path = /Users/johankarlsteen/HildingTheTurtle/320.html;
+		sourceTree = "<absolute>";
+	};
+	C5D2C05312E5AEF5009910EF /* 480.html */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text.html;
+		name = 480.html;
+		path = /Users/johankarlsteen/HildingTheTurtle/480.html;
+		sourceTree = "<absolute>";
+	};
+	C5D2C05612E5AF6E009910EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5D2C05212E5AEF5009910EF /* 320.html */;
+		name = "320.html: 27";
+		rLen = 0;
+		rLoc = 983;
+		rType = 0;
+		vrLen = 1941;
+		vrLoc = 0;
+	};
+	C5D2C05712E5AF6E009910EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5D2C05312E5AEF5009910EF /* 480.html */;
+		name = "480.html: 76";
+		rLen = 0;
+		rLoc = 2941;
+		rType = 0;
+		vrLen = 1893;
+		vrLoc = 0;
+	};
+	C5D2C05812E5AF6E009910EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5AA2C6212E5959F006FEA84 /* 640.html */;
+		name = "640.html: 27";
+		rLen = 0;
+		rLoc = 983;
+		rType = 0;
+		vrLen = 2094;
+		vrLoc = 289;
+	};
+	C5D2C05912E5AF6E009910EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584448212E446D000C0B7AE /* VideoView.m */;
+		name = "VideoView.m: 28";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 2209;
+		vrLoc = 175;
+	};
+	C5D2C05B12E5AFB1009910EF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584448212E446D000C0B7AE /* VideoView.m */;
+		name = "VideoView.m: 28";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 2259;
+		vrLoc = 202;
+	};
+	C5FB94A212E5D12F008625BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584448212E446D000C0B7AE /* VideoView.m */;
+		name = "VideoView.m: 28";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 2236;
+		vrLoc = 202;
+	};
+	C5FB94A312E5D12F008625BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C584448212E446D000C0B7AE /* VideoView.m */;
+		name = "VideoView.m: 28";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 2236;
+		vrLoc = 202;
+	};
+}
