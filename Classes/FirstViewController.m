@@ -10,7 +10,7 @@
 
 
 @implementation FirstViewController
-
+@synthesize webView;
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -26,15 +26,27 @@
 /*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"];
+	NSString *html = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+	[self.webView loadHTMLString:html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle]bundlePath]]];
 }
 */
 
-/*
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+    if (navigationType == UIWebViewNavigationTypeLinkClicked) {
+        [[UIApplication sharedApplication] openURL:request.URL];
+        return false;
+    }
+    return true;
+}
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"];
+	NSString *html = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+	[self.webView loadHTMLString:html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle]bundlePath]]];
 }
-*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.

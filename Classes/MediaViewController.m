@@ -207,7 +207,20 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	NSArray * images = [NSArray arrayWithObjects:[UIImage imageNamed:@"IMG_4800.png"], [UIImage imageNamed:@"IMG_4801.png"], [UIImage imageNamed:@"IMG_4802.png"], [UIImage imageNamed:@"IMG_4804.png"], [UIImage imageNamed:@"IMG_4805.png"], nil];
+	NSArray * images = [NSArray arrayWithObjects:
+						[UIImage imageNamed:@"IMG_4821.jpg"], 
+						[UIImage imageNamed:@"IMG_4826.jpg"], 
+						[UIImage imageNamed:@"IMG_4842.jpg"], 
+						[UIImage imageNamed:@"IMG_4845.jpg"], 
+						[UIImage imageNamed:@"back.jpg"], 
+						[UIImage imageNamed:@"curtain.jpg"], 
+						[UIImage imageNamed:@"eating.jpg"], 
+						[UIImage imageNamed:@"hiding.jpg"], 
+						[UIImage imageNamed:@"hilding_sko.jpg"], 
+						[UIImage imageNamed:@"shotgun.jpg"], 
+						[UIImage imageNamed:@"trasko.jpg"], 
+						[UIImage imageNamed:@"waterbowl.jpg"], 
+						nil];
 	
 	self.view = [[[SlideShowView alloc] initWithImages:images] autorelease];
 	

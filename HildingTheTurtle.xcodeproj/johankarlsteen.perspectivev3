@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -267,15 +269,11 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>C5AA2C6112E59583006FEA84</string>
-								<string>080E96DDFE201D6D7F000001</string>
-								<string>29B97317FDCFA39411CA2CEA</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
-									<integer>9</integer>
+									<integer>5</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -308,14 +306,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>C509305412E4247D0004509C</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>VideoView2.m</string>
+								<string>cam320.html</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,43 +319,44 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C509305512E4247D0004509C</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>VideoView2.m</string>
+										<string>cam320.html</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C59FC68012E71671008877FE</string>
+										<string>C59FC77E12E7288E008877FE</string>
 										<key>history</key>
 										<array>
 											<string>C584445812E4459800C0B7AE</string>
 											<string>C584445912E4459800C0B7AE</string>
-											<string>C584450712E44E5F00C0B7AE</string>
 											<string>C584457312E46FEA00C0B7AE</string>
 											<string>C584457512E46FEA00C0B7AE</string>
 											<string>C584457812E46FEA00C0B7AE</string>
-											<string>C52526E512E4EA7800EC12E2</string>
 											<string>C52526E712E4EA7800EC12E2</string>
-											<string>C525276512E4ED1100EC12E2</string>
 											<string>C525276612E4ED1100EC12E2</string>
 											<string>C525276712E4ED1100EC12E2</string>
-											<string>C525277C12E4EF1900EC12E2</string>
 											<string>C5AA2AE612E577DD006FEA84</string>
 											<string>C5AA2B9012E57FA4006FEA84</string>
-											<string>C5AA2BA012E5811A006FEA84</string>
 											<string>C59FC59512E70FD7008877FE</string>
 											<string>C59FC59612E70FD7008877FE</string>
 											<string>C59FC59712E70FD7008877FE</string>
 											<string>C59FC63E12E7150C008877FE</string>
-											<string>C59FC63F12E7150C008877FE</string>
-											<string>C59FC66212E715AF008877FE</string>
 											<string>C59FC66312E715AF008877FE</string>
-											<string>C59FC67312E7164B008877FE</string>
-											<string>C59FC67412E7164B008877FE</string>
-											<string>C59FC67512E7164B008877FE</string>
-											<string>C59FC67612E7164B008877FE</string>
-											<string>C59FC67712E7164B008877FE</string>
 											<string>C59FC67D12E71671008877FE</string>
-											<string>C59FC67E12E71671008877FE</string>
-											<string>C59FC67F12E71671008877FE</string>
+											<string>C59FC6BA12E72355008877FE</string>
+											<string>C59FC6BC12E72355008877FE</string>
+											<string>C59FC6EA12E724BA008877FE</string>
+											<string>C59FC73712E726FB008877FE</string>
+											<string>C59FC73812E726FB008877FE</string>
+											<string>C59FC73912E726FB008877FE</string>
+											<string>C59FC74512E7275C008877FE</string>
+											<string>C59FC74612E7275C008877FE</string>
+											<string>C59FC74712E7275C008877FE</string>
+											<string>C59FC74812E7275C008877FE</string>
+											<string>C59FC76B12E72815008877FE</string>
+											<string>C59FC76C12E72815008877FE</string>
+											<string>C59FC77B12E7288E008877FE</string>
+											<string>C59FC77C12E7288E008877FE</string>
+											<string>C59FC77D12E7288E008877FE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -399,8 +396,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1413, 178}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 119 1680 909 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -454,7 +449,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1013, 157}}</string>
+										<string>{{10, 27}, {1413, 178}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 119 1680 909 0 0 1680 1028 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -676,7 +673,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>C59FC68112E71671008877FE</string>
 		<string>C59FC5A612E70FD7008877FE</string>
 		<string>C59FC5A712E70FD7008877FE</string>
 		<string>/Users/johankarlsteen/HildingTheTurtle/HildingTheTurtle.xcodeproj</string>
