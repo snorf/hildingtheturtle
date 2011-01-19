@@ -23,7 +23,6 @@
 		C584455712E4622500C0B7AE /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C584455512E4622500C0B7AE /* MediaViewController.m */; };
 		C584455812E4622500C0B7AE /* MediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C584455612E4622500C0B7AE /* MediaViewController.xib */; };
 		C59FC58312E6D41B008877FE /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C59FC58212E6D41B008877FE /* camera_icon.png */; };
-		C59FC58712E6D4F3008877FE /* about_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C59FC58612E6D4F3008877FE /* about_icon.png */; };
 		C59FC58A12E70DD5008877FE /* hilding_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C59FC58912E70DD5008877FE /* hilding_icon.png */; };
 		C59FC62B12E7142F008877FE /* cam320_2.html in Resources */ = {isa = PBXBuildFile; fileRef = C59FC62812E7142F008877FE /* cam320_2.html */; };
 		C59FC62C12E7142F008877FE /* cam480_2.html in Resources */ = {isa = PBXBuildFile; fileRef = C59FC62912E7142F008877FE /* cam480_2.html */; };
@@ -53,6 +52,10 @@
 		C59FC6B412E7234D008877FE /* curtain@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C59FC69C12E7234D008877FE /* curtain@2x.jpg */; };
 		C59FC6B512E7234D008877FE /* back@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C59FC69D12E7234D008877FE /* back@2x.jpg */; };
 		C59FC6D812E72438008877FE /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = C59FC6D712E72438008877FE /* about.html */; };
+		C59FC7BE12E72B34008877FE /* hilding_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C59FC7BD12E72B34008877FE /* hilding_icon@2x.png */; };
+		C59FC7C212E72C99008877FE /* camera_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C59FC7C112E72C99008877FE /* camera_icon@2x.png */; };
+		C59FC7C412E72D51008877FE /* about_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C59FC7C312E72D51008877FE /* about_icon@2x.png */; };
+		C59FC7F912E73191008877FE /* about_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C59FC7F812E73191008877FE /* about_icon.png */; };
 		C5AA2BC112E58B6E006FEA84 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5AA2BBE12E58B6E006FEA84 /* Icon.png */; };
 		C5AA2BC212E58B6E006FEA84 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5AA2BBF12E58B6E006FEA84 /* Icon@2x.png */; };
 		C5AA2BC312E58B6E006FEA84 /* ItunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = C5AA2BC012E58B6E006FEA84 /* ItunesArtwork */; };
@@ -88,7 +91,6 @@
 		C584455512E4622500C0B7AE /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
 		C584455612E4622500C0B7AE /* MediaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MediaViewController.xib; path = Classes/MediaViewController.xib; sourceTree = "<group>"; };
 		C59FC58212E6D41B008877FE /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon.png; sourceTree = "<group>"; };
-		C59FC58612E6D4F3008877FE /* about_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_icon.png; sourceTree = "<group>"; };
 		C59FC58912E70DD5008877FE /* hilding_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hilding_icon.png; sourceTree = "<group>"; };
 		C59FC62812E7142F008877FE /* cam320_2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam320_2.html; sourceTree = "<group>"; };
 		C59FC62912E7142F008877FE /* cam480_2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam480_2.html; sourceTree = "<group>"; };
@@ -118,6 +120,10 @@
 		C59FC69C12E7234D008877FE /* curtain@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "curtain@2x.jpg"; sourceTree = "<group>"; };
 		C59FC69D12E7234D008877FE /* back@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back@2x.jpg"; sourceTree = "<group>"; };
 		C59FC6D712E72438008877FE /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		C59FC7BD12E72B34008877FE /* hilding_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hilding_icon@2x.png"; sourceTree = "<group>"; };
+		C59FC7C112E72C99008877FE /* camera_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_icon@2x.png"; sourceTree = "<group>"; };
+		C59FC7C312E72D51008877FE /* about_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_icon@2x.png"; sourceTree = "<group>"; };
+		C59FC7F812E73191008877FE /* about_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_icon.png; sourceTree = "<group>"; };
 		C5AA2BBE12E58B6E006FEA84 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		C5AA2BBF12E58B6E006FEA84 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		C5AA2BC012E58B6E006FEA84 /* ItunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItunesArtwork; sourceTree = "<group>"; };
@@ -194,8 +200,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C59FC7F812E73191008877FE /* about_icon.png */,
+				C59FC7C312E72D51008877FE /* about_icon@2x.png */,
+				C59FC7C112E72C99008877FE /* camera_icon@2x.png */,
+				C59FC7BD12E72B34008877FE /* hilding_icon@2x.png */,
 				C59FC58912E70DD5008877FE /* hilding_icon.png */,
-				C59FC58612E6D4F3008877FE /* about_icon.png */,
 				C59FC58212E6D41B008877FE /* camera_icon.png */,
 				C5AA2BC612E58BFB006FEA84 /* background.png */,
 				C5AA2BBE12E58B6E006FEA84 /* Icon.png */,
@@ -328,7 +337,6 @@
 				C5FB94AB12E5D154008625BF /* cam480.html in Resources */,
 				C5FB94AC12E5D154008625BF /* cam640.html in Resources */,
 				C59FC58312E6D41B008877FE /* camera_icon.png in Resources */,
-				C59FC58712E6D4F3008877FE /* about_icon.png in Resources */,
 				C59FC58A12E70DD5008877FE /* hilding_icon.png in Resources */,
 				C59FC62B12E7142F008877FE /* cam320_2.html in Resources */,
 				C59FC62C12E7142F008877FE /* cam480_2.html in Resources */,
@@ -358,6 +366,10 @@
 				C59FC6B412E7234D008877FE /* curtain@2x.jpg in Resources */,
 				C59FC6B512E7234D008877FE /* back@2x.jpg in Resources */,
 				C59FC6D812E72438008877FE /* about.html in Resources */,
+				C59FC7BE12E72B34008877FE /* hilding_icon@2x.png in Resources */,
+				C59FC7C212E72C99008877FE /* camera_icon@2x.png in Resources */,
+				C59FC7C412E72D51008877FE /* about_icon@2x.png in Resources */,
+				C59FC7F912E73191008877FE /* about_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
