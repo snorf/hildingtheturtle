@@ -10,7 +10,7 @@
 
 
 @implementation VideoView2
-@synthesize webView;
+@synthesize webView, html;
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -24,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+	webView.scalesPageToFit = YES;
 	[[NSNotificationCenter defaultCenter] addObserver:self
 											 selector:@selector(didRotate:)
 												 name:UIDeviceOrientationDidChangeNotification
@@ -32,44 +33,38 @@
 
 -(void)didRotate:(NSNotification *)theNotification {
 	UIInterfaceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];
-	NSURLRequest* urlRequest = [self getResolutionString:interfaceOrientation];
-	[webView loadRequest:urlRequest];	
+	[self loadResolution:interfaceOrientation];
 }
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations.
-	NSURLRequest* urlRequest = [self getResolutionString:interfaceOrientation];
-	[webView loadRequest:urlRequest];	
+	[self loadResolution:interfaceOrientation];
 	return YES;
 }
 
-- (NSURLRequest*) getResolutionString:(UIInterfaceOrientation)interfaceOrientation {
+- (void) loadResolution:(UIInterfaceOrientation)interfaceOrientation {
+	[self stopLoading];
 	NSInteger scale = [[UIScreen mainScreen] scale] + 0.5f;
+	NSString *path = nil;
 	if(interfaceOrientation == UIInterfaceOrientationPortrait) {
-		NSString *urlString = [NSString stringWithFormat:
-							   @"http://cam.hildingtheturtle.com/axis-cgi/mjpg/video.cgi?resolution=%ix%i&clock=0&date=0&text=%@", 
-							   320*scale, 240*scale, @"&textstring=Please%20rotate%20to%20landscape%20for%20full%20screen"];
-		return[NSURLRequest requestWithURL:
-			   [NSURL URLWithString: urlString]];
-	} else {
-		NSString *urlString;
 		if (scale == 2) {
-			urlString = [NSString stringWithFormat:
-						 @"http://cam.hildingtheturtle.com/axis-cgi/mjpg/video.cgi?resolution=%ix%i&clock=0&date=0&text=0", 
-						 640, 480];
+			path = [[NSBundle mainBundle] pathForResource:@"cam640_2" ofType:@"html"];
 		} else {
-			urlString = [NSString stringWithFormat:
-						 @"http://cam.hildingtheturtle.com/axis-cgi/mjpg/video.cgi?resolution=%ix%i&clock=0&date=0&text=0", 
-						 480, 360];
+			path = [[NSBundle mainBundle] pathForResource:@"cam320_2" ofType:@"html"];
+		}		
+	} else {
+		if (scale == 2) {
+			path = [[NSBundle mainBundle] pathForResource:@"cam640_2" ofType:@"html"];
+		} else {
+			path = [[NSBundle mainBundle] pathForResource:@"cam480_2" ofType:@"html"];
 		}
-		return[NSURLRequest requestWithURL:
-			   [NSURL URLWithString:urlString]];
-	}		
+	}
+	self.html = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+	[self startLoading];
 }
 
 - (void)startLoading {
-	[webView reload];
+	[self.webView loadHTMLString:self.html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle]bundlePath]]];
 }
 
 - (void)stopLoading {

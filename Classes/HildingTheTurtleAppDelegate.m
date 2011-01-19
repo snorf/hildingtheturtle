@@ -87,7 +87,6 @@
 		VideoView2 *videoView2 = [theTabBarController.viewControllers objectAtIndex:3];
 		[videoView2 stopLoading];		
 	}
-	NSLog(@"Tab index = %u (%u)", indexOfTab);
 }
 
 

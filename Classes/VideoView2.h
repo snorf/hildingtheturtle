@@ -11,10 +11,13 @@
 
 @interface VideoView2 : UIViewController {
 	IBOutlet UIWebView *webView;
+	NSString *html;
 }
+@property (nonatomic, retain) NSString *html;
 @property (nonatomic, retain) IBOutlet UIWebView *webView;
+
 
 - (void)startLoading;
 - (void)stopLoading;
-- (NSURLRequest*) getResolutionString:(UIInterfaceOrientation)interfaceOrientation;
+- (void)loadResolution:(UIInterfaceOrientation)interfaceOrientation;
 @end
