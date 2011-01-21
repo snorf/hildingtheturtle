@@ -12,6 +12,7 @@
 @interface VideoView2 : UIViewController {
 	IBOutlet UIWebView *webView;
 	NSString *html;
+	BOOL started;
 }
 @property (nonatomic, retain) NSString *html;
 @property (nonatomic, retain) IBOutlet UIWebView *webView;

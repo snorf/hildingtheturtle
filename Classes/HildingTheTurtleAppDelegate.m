@@ -35,6 +35,7 @@
      Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
      Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
      */
+	[self stopLoading];
 }
 
 
@@ -81,14 +82,15 @@
 	}  else if ([viewController.title isEqualToString:@"Cam 2"]) {
 		VideoView2 *videoView = [theTabBarController.viewControllers objectAtIndex:indexOfTab];
 		[videoView startLoading];
-	} else {
-		VideoView *videoView = [theTabBarController.viewControllers objectAtIndex:2];
-		[videoView stopLoading];
-		VideoView2 *videoView2 = [theTabBarController.viewControllers objectAtIndex:3];
-		[videoView2 stopLoading];		
 	}
 }
 
+- (void)stopLoading {
+	VideoView *videoView = [tabBarController.viewControllers objectAtIndex:2];
+	[videoView stopLoading];
+	VideoView2 *videoView2 = [tabBarController.viewControllers objectAtIndex:3];
+	[videoView2 stopLoading];
+}
 
 /*
 // Optional UITabBarControllerDelegate method.

@@ -210,16 +210,16 @@
 	NSArray * images = [NSArray arrayWithObjects:
 						[UIImage imageNamed:@"IMG_4821.jpg"], 
 						[UIImage imageNamed:@"IMG_4826.jpg"], 
-						[UIImage imageNamed:@"IMG_4842.jpg"], 
-						[UIImage imageNamed:@"IMG_4845.jpg"], 
 						[UIImage imageNamed:@"back.jpg"], 
 						[UIImage imageNamed:@"curtain.jpg"], 
 						[UIImage imageNamed:@"eating.jpg"], 
-						[UIImage imageNamed:@"hiding.jpg"], 
+						[UIImage imageNamed:@"hiding.jpg"],
+						[UIImage imageNamed:@"IMG_4845.jpg"], 
 						[UIImage imageNamed:@"hilding_sko.jpg"], 
 						[UIImage imageNamed:@"shotgun.jpg"], 
 						[UIImage imageNamed:@"trasko.jpg"], 
-						[UIImage imageNamed:@"waterbowl.jpg"], 
+						[UIImage imageNamed:@"waterbowl.jpg"],
+						[UIImage imageNamed:@"IMG_4842.jpg"],
 						nil];
 	
 	self.view = [[[SlideShowView alloc] initWithImages:images] autorelease];

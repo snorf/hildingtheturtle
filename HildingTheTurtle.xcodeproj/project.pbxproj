@@ -63,6 +63,7 @@
 		C5FB94AA12E5D154008625BF /* cam320.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FB94A712E5D154008625BF /* cam320.html */; };
 		C5FB94AB12E5D154008625BF /* cam480.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FB94A812E5D154008625BF /* cam480.html */; };
 		C5FB94AC12E5D154008625BF /* cam640.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FB94A912E5D154008625BF /* cam640.html */; };
+		C5FC639812EA27CD00005CDB /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FC639712EA27CD00005CDB /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +132,7 @@
 		C5FB94A712E5D154008625BF /* cam320.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam320.html; sourceTree = "<group>"; };
 		C5FB94A812E5D154008625BF /* cam480.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam480.html; sourceTree = "<group>"; };
 		C5FB94A912E5D154008625BF /* cam640.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam640.html; sourceTree = "<group>"; };
+		C5FC639712EA27CD00005CDB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				C5FC639812EA27CD00005CDB /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +229,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				C5FC639712EA27CD00005CDB /* iAd.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -424,11 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Johan Karlsteen";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2FE2FC33-BE5B-4110-BE65-3E6A2A12F837";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -447,6 +453,33 @@
 			};
 			name = Release;
 		};
+		C5FC64BD12EA3D8300005CDB /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		C5FC64BE12EA3D8300005CDB /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HildingTheTurtle_Prefix.pch;
+				INFOPLIST_FILE = "HildingTheTurtle-Info.plist";
+				PRODUCT_NAME = HildingTheTurtle;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,6 +488,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				C5FC64BE12EA3D8300005CDB /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -464,6 +498,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				C5FC64BD12EA3D8300005CDB /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

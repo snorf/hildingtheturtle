@@ -24,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+	started = NO;
 	[[NSNotificationCenter defaultCenter] addObserver:self
 											 selector:@selector(didRotate:)
 												 name:UIDeviceOrientationDidChangeNotification
@@ -42,32 +43,29 @@
 }
 
 - (void) loadResolution:(UIInterfaceOrientation)interfaceOrientation {
-	[self stopLoading];
 	NSInteger scale = [[UIScreen mainScreen] scale] + 0.5f;
 	NSString *path = nil;
-	if(interfaceOrientation == UIInterfaceOrientationPortrait) {
-		if (scale == 2) {
-			path = [[NSBundle mainBundle] pathForResource:@"cam640_2" ofType:@"html"];
-		} else {
-			path = [[NSBundle mainBundle] pathForResource:@"cam320_2" ofType:@"html"];
-		}		
+	if (scale == 2) {
+		path = [[NSBundle mainBundle] pathForResource:@"cam640_2" ofType:@"html"];
 	} else {
-		if (scale == 2) {
-			path = [[NSBundle mainBundle] pathForResource:@"cam640_2" ofType:@"html"];
-		} else {
-			path = [[NSBundle mainBundle] pathForResource:@"cam480_2" ofType:@"html"];
-		}
+		path = [[NSBundle mainBundle] pathForResource:@"cam480_2" ofType:@"html"];
 	}
 	self.html = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
 	[self startLoading];
 }
 
 - (void)startLoading {
-	[self.webView loadHTMLString:self.html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle]bundlePath]]];
+	if (!started) {
+		[self.webView loadHTMLString:self.html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle]bundlePath]]];
+		started = YES;
+	}
 }
 
 - (void)stopLoading {
-	[webView stopLoading];
+	if (started) {
+		[webView stopLoading];
+		started = NO;
+	}
 }
 
 - (void)didReceiveMemoryWarning {
