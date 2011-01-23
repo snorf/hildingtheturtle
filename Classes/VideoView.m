@@ -30,20 +30,19 @@
 											 selector:@selector(didRotate:)
 												 name:UIDeviceOrientationDidChangeNotification
 											   object:nil];
+	[self loadResolution];
 }
 
 -(void)didRotate:(NSNotification *)theNotification {
-	UIInterfaceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];
-	[self loadResolution:interfaceOrientation];
+	//UIInterfaceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];
 }
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	[self loadResolution:interfaceOrientation];
 	return YES;
 }
 
-- (void) loadResolution:(UIInterfaceOrientation)interfaceOrientation {
+- (void) loadResolution {
 	NSInteger scale = [[UIScreen mainScreen] scale] + 0.5f;
 	NSString *path = nil;
 	if (scale == 2) {
@@ -64,7 +63,7 @@
 
 - (void)stopLoading {
 	if (started) {
-		[webView stopLoading];
+		[self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"about:blank"]]];	
 		started = NO;
 	}
 }

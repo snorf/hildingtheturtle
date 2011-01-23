@@ -20,5 +20,5 @@
 
 - (void)startLoading;
 - (void)stopLoading;
-- (void)loadResolution:(UIInterfaceOrientation)interfaceOrientation;
+- (void)loadResolution;
 @end

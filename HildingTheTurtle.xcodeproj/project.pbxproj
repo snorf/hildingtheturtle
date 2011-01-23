@@ -24,7 +24,6 @@
 		C584455812E4622500C0B7AE /* MediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C584455612E4622500C0B7AE /* MediaViewController.xib */; };
 		C59FC58312E6D41B008877FE /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C59FC58212E6D41B008877FE /* camera_icon.png */; };
 		C59FC58A12E70DD5008877FE /* hilding_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C59FC58912E70DD5008877FE /* hilding_icon.png */; };
-		C59FC62B12E7142F008877FE /* cam320_2.html in Resources */ = {isa = PBXBuildFile; fileRef = C59FC62812E7142F008877FE /* cam320_2.html */; };
 		C59FC62C12E7142F008877FE /* cam480_2.html in Resources */ = {isa = PBXBuildFile; fileRef = C59FC62912E7142F008877FE /* cam480_2.html */; };
 		C59FC62D12E7142F008877FE /* cam640_2.html in Resources */ = {isa = PBXBuildFile; fileRef = C59FC62A12E7142F008877FE /* cam640_2.html */; };
 		C59FC69E12E7234D008877FE /* waterbowl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C59FC68612E7234D008877FE /* waterbowl.jpg */; };
@@ -60,7 +59,6 @@
 		C5AA2BC212E58B6E006FEA84 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5AA2BBF12E58B6E006FEA84 /* Icon@2x.png */; };
 		C5AA2BC312E58B6E006FEA84 /* ItunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = C5AA2BC012E58B6E006FEA84 /* ItunesArtwork */; };
 		C5AA2BC712E58BFB006FEA84 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C5AA2BC612E58BFB006FEA84 /* background.png */; };
-		C5FB94AA12E5D154008625BF /* cam320.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FB94A712E5D154008625BF /* cam320.html */; };
 		C5FB94AB12E5D154008625BF /* cam480.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FB94A812E5D154008625BF /* cam480.html */; };
 		C5FB94AC12E5D154008625BF /* cam640.html in Resources */ = {isa = PBXBuildFile; fileRef = C5FB94A912E5D154008625BF /* cam640.html */; };
 		C5FC639812EA27CD00005CDB /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FC639712EA27CD00005CDB /* iAd.framework */; };
@@ -93,7 +91,6 @@
 		C584455612E4622500C0B7AE /* MediaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MediaViewController.xib; path = Classes/MediaViewController.xib; sourceTree = "<group>"; };
 		C59FC58212E6D41B008877FE /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon.png; sourceTree = "<group>"; };
 		C59FC58912E70DD5008877FE /* hilding_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hilding_icon.png; sourceTree = "<group>"; };
-		C59FC62812E7142F008877FE /* cam320_2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam320_2.html; sourceTree = "<group>"; };
 		C59FC62912E7142F008877FE /* cam480_2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam480_2.html; sourceTree = "<group>"; };
 		C59FC62A12E7142F008877FE /* cam640_2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam640_2.html; sourceTree = "<group>"; };
 		C59FC68612E7234D008877FE /* waterbowl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterbowl.jpg; sourceTree = "<group>"; };
@@ -129,7 +126,6 @@
 		C5AA2BBF12E58B6E006FEA84 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		C5AA2BC012E58B6E006FEA84 /* ItunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = ItunesArtwork; sourceTree = "<group>"; };
 		C5AA2BC612E58BFB006FEA84 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		C5FB94A712E5D154008625BF /* cam320.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam320.html; sourceTree = "<group>"; };
 		C5FB94A812E5D154008625BF /* cam480.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam480.html; sourceTree = "<group>"; };
 		C5FB94A912E5D154008625BF /* cam640.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cam640.html; sourceTree = "<group>"; };
 		C5FC639712EA27CD00005CDB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -268,10 +264,8 @@
 		C5AA2C6112E59583006FEA84 /* html */ = {
 			isa = PBXGroup;
 			children = (
-				C5FB94A712E5D154008625BF /* cam320.html */,
 				C5FB94A812E5D154008625BF /* cam480.html */,
 				C5FB94A912E5D154008625BF /* cam640.html */,
-				C59FC62812E7142F008877FE /* cam320_2.html */,
 				C59FC62912E7142F008877FE /* cam480_2.html */,
 				C59FC62A12E7142F008877FE /* cam640_2.html */,
 				C59FC6D712E72438008877FE /* about.html */,
@@ -337,12 +331,10 @@
 				C5AA2BC212E58B6E006FEA84 /* Icon@2x.png in Resources */,
 				C5AA2BC312E58B6E006FEA84 /* ItunesArtwork in Resources */,
 				C5AA2BC712E58BFB006FEA84 /* background.png in Resources */,
-				C5FB94AA12E5D154008625BF /* cam320.html in Resources */,
 				C5FB94AB12E5D154008625BF /* cam480.html in Resources */,
 				C5FB94AC12E5D154008625BF /* cam640.html in Resources */,
 				C59FC58312E6D41B008877FE /* camera_icon.png in Resources */,
 				C59FC58A12E70DD5008877FE /* hilding_icon.png in Resources */,
-				C59FC62B12E7142F008877FE /* cam320_2.html in Resources */,
 				C59FC62C12E7142F008877FE /* cam480_2.html in Resources */,
 				C59FC62D12E7142F008877FE /* cam640_2.html in Resources */,
 				C59FC69E12E7234D008877FE /* waterbowl.jpg in Resources */,
@@ -428,13 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Johan Karlsteen";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Johan Karlsteen (L4NDK9NR36)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2FE2FC33-BE5B-4110-BE65-3E6A2A12F837";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "64479C27-CAF2-4071-9670-AB0BC112381A";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -457,12 +449,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Johan Karlsteen";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2FE2FC33-BE5B-4110-BE65-3E6A2A12F837";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;

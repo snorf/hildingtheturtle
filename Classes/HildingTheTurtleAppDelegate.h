@@ -17,5 +17,6 @@
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 - (void)stopLoading;
+- (void)startLoading;
 
 @end

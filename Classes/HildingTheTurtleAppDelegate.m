@@ -58,6 +58,7 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
+	[self startLoading];
 }
 
 
@@ -90,6 +91,13 @@
 	[videoView stopLoading];
 	VideoView2 *videoView2 = [tabBarController.viewControllers objectAtIndex:3];
 	[videoView2 stopLoading];
+}
+
+- (void)startLoading {
+	VideoView *videoView = [tabBarController.viewControllers objectAtIndex:2];
+	[videoView startLoading];
+	VideoView2 *videoView2 = [tabBarController.viewControllers objectAtIndex:3];
+	[videoView2 startLoading];
 }
 
 /*
